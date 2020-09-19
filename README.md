@@ -4,5 +4,5 @@
 
 - [fylo-dark-theme](https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/index.html)
 
-- [single-price-grid-component](https://hannahshiels.github.io/front-end-mentor/single-price-grid-component/index.html)
+- [single-price-grid-component](https://hannahshiels.github.io/front-end-mentor/single-price-grid-component-master/index.html)
 
