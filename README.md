@@ -6,3 +6,5 @@
 
 - [single-price-grid-component](https://hannahshiels.github.io/front-end-mentor/single-price-grid-component-master/index.html)
 
+- [pricing-component-with-toggle](https://hannahshiels.github.io/front-end-mentor/pricing-component-with-toggle-master/index.html) 
+
