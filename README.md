@@ -8,3 +8,6 @@
 
 - [pricing-component-with-toggle](https://hannahshiels.github.io/front-end-mentor/pricing-component-with-toggle-master/index.html) 
 
+- [testimonials-grid-section](https://hannahshiels.github.io/front-end-mentor/testimonials-grid-section/index.html) 
+
+
