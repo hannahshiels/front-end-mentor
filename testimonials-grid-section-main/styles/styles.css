@@ -35,7 +35,7 @@ p {
 }
 
 .testimonial-card {
-    box-shadow: 0.5rem 0.75 0.5rem hsl(0, 0%, 81%);
+    box-shadow: 0.5rem 0.75rem 0.75rem hsl(0, 0%, 70%);
     border-radius: 1rem;
     padding: 1.5rem;
     margin: 1rem;
@@ -116,11 +116,18 @@ footer {
     bottom: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width:1200px) {
     .wrapper {
         margin: 2rem 0 4rem;
         height: auto;
     }
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "grid-area-1 grid-area-1" "grid-area-2 grid-area-5" "grid-area-3 grid-area-5" "grid-area-4 grid-area-4";
+    }
+}
+
+@media (max-width: 600px) {
     .grid {
         grid-template-columns: 1fr;
         grid-template-areas: "grid-area-1" "grid-area-2" "grid-area-3" "grid-area-4" "grid-area-5";
