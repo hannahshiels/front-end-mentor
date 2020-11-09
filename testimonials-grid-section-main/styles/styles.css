@@ -15,10 +15,6 @@ p {
     line-height: 1.5;
 }
 
-.quote-highlight {
-    margin-bottom: 1rem;
-}
-
 .quote-highlight p {
     font-weight: 600;
     font-size: 20px;
@@ -41,21 +37,34 @@ p {
 .testimonial-card {
     box-shadow: 0.5rem 0.75 0.5rem hsl(0, 0%, 81%);
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
     margin: 1rem;
 }
 
 .card-head {
     display: flex;
+    align-items: center;
+}
+
+.profile img {
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
 }
 
 .person {
     margin-left: 1rem;
 }
 
-.profile img {
-    border: 1px solid hsl(0, 0%, 100%);
-    border-radius: 50%;
+.role p {
+    opacity: 0.5;
+}
+
+.quote-highlight {
+    margin: 1rem 0;
+}
+
+.quote p {
+    opacity: 0.7;
 }
 
 .grid-item-1 {
@@ -93,12 +102,30 @@ p {
 }
 
 .bg-purple {
-    background: hsl(263, 55%, 52%);
+    background: url("../images/bg-pattern-quotation.svg") repeat hsl(263, 55%, 52%);
+    background-position: calc(100% - 1rem) 1rem;
+    background-repeat: no-repeat;
     color: hsl(0, 0%, 100%);
 }
 
 footer {
+    background: hsl(0, 0%, 100%);
     position: fixed;
+    padding: .5rem;
     width: 100%;
     bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        margin: 2rem 0 4rem;
+        height: auto;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: "grid-area-1" "grid-area-2" "grid-area-3" "grid-area-4" "grid-area-5";
+    }
+    .testimonial-card {
+        margin: 1 0 1rem;
+    }
 }
