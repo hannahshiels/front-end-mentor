@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 81%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: hsl(219, 29%, 14%);
+}
+
+p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.quote-highlight p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-areas: "grid-area-1 grid-area-1 grid-area-2 grid-area-5" "grid-area-3 grid-area-4 grid-area-4 grid-area-5";
+}
+
+.testimonial-card {
+    box-shadow: 0.5rem 0.75rem 0.75rem hsl(0, 0%, 70%);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+.card-head {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.person {
+    margin-left: 1rem;
+}
+
+.role p {
+    opacity: 0.5;
+}
+
+.quote-highlight {
+    margin: 1rem 0;
+}
+
+.quote p {
+    opacity: 0.7;
+}
+
+.grid-item-1 {
+    grid-area: grid-area-1;
+}
+
+.grid-item-2 {
+    grid-area: grid-area-2;
+}
+
+.grid-item-3 {
+    grid-area: grid-area-3;
+}
+
+.grid-item-4 {
+    grid-area: grid-area-4;
+}
+
+.grid-item-5 {
+    grid-area: grid-area-5;
+}
+
+.bg-light {
+    background: hsl(0, 0%, 100%);
+}
+
+.bg-dark {
+    background: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+
+.bg-gray {
+    background: hsl(217, 19%, 35%);
+    color: hsl(0, 0%, 100%);
+}
+
+.bg-purple {
+    background: url("../images/bg-pattern-quotation.svg") repeat hsl(263, 55%, 52%);
+    background-position: calc(100% - 1rem) 1rem;
+    background-repeat: no-repeat;
+    color: hsl(0, 0%, 100%);
+}
+
+footer {
+    background: hsl(0, 0%, 100%);
+    position: fixed;
+    padding: .5rem;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width:1200px) {
+    .wrapper {
+        margin: 2rem 0 4rem;
+        height: auto;
+    }
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "grid-area-1 grid-area-1" "grid-area-2 grid-area-5" "grid-area-3 grid-area-5" "grid-area-4 grid-area-4";
+    }
+}
+
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: "grid-area-1" "grid-area-2" "grid-area-3" "grid-area-4" "grid-area-5";
+    }
+    .testimonial-card {
+        margin: 1 0 1rem;
+    }
+}
