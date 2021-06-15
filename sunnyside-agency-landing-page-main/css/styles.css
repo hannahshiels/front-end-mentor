@@ -430,6 +430,10 @@ footer nav ul li a:hover {
     .container-graphic {
         order: 5;
     }
+    .card-graphic .content-container {
+        padding: 2rem;
+        padding-top: 0;
+    }
     .card .link-container {
         display: flex;
         align-items: center;
@@ -515,6 +519,11 @@ footer nav ul li a:hover {
     }
     .menu nav ul .nav-highlight:hover a {
         color: hsl(51, 100%, 49%);
+    }
+    /* card section */
+    .card-graphic .content-container {
+        padding: 1rem;
+        padding-top: 0;
     }
     /* footer */
     footer {
