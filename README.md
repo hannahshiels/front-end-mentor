@@ -1,5 +1,3 @@
-## Links to challenges
-
 | Challenge   | Code  | Live Site |
 | ------ | ------ | ------ |
 |Four card feature  | [Code](https://github.com/hannahshiels/front-end-mentor/tree/master/four-card-feature-section-master) | [Live Site](https://hannahshiels.github.io/front-end-mentor/four-card-feature-section-master/index.html) 
